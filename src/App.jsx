@@ -1,4 +1,20 @@
 
+/**
+ * App Component
+ * -------------
+ * The root component of the Book Finder application.
+ * - Handles routing between the landing page and the main book search page.
+ * - Manages global state for book search query, results, loading, and error.
+ * - Delegates UI to LandingPage, BookFinderMain, and Card components.
+ *
+ * Functionality:
+ *   - Shows a welcoming landing page for Alex.
+ *   - On clicking start, transitions to the main book search page.
+ *   - Allows searching for books by title using the Open Library API.
+ *   - Displays results in styled cards with cover, title, author, and year.
+ *   - Handles loading and error states gracefully.
+ */
+
 import { useState } from 'react';
 import LandingPage from './LandingPage';
 import BookFinderMain from './BookFinderMain';

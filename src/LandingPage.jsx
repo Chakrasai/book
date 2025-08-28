@@ -1,3 +1,14 @@
+/**
+ * LandingPage Component
+ * ---------------------
+ * This page welcomes the user (Alex) and introduces the Book Finder app.
+ * - Highlights Alex's passion for books.
+ * - Contains a call-to-action button to start exploring books.
+ * - Calls the onStart prop to navigate to the main book search page.
+ *
+ * Props:
+ *   - onStart: function to call when the user clicks the start button.
+ */
 import React from "react";
 
 const LandingPage = ({ onStart }) => (
