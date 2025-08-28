@@ -1,0 +1,11 @@
+.card-component {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  padding: 1.5em 2em;
+  margin: 1em 0;
+  transition: box-shadow 0.2s;
+}
+.card-component:hover {
+  box-shadow: 0 4px 20px rgba(49,130,206,0.13);
+}
